@@ -7,21 +7,6 @@ This repository contains a structured analysis of Upworthy-style A/B tests invol
 3. Compute observed effect size and power based on real data.
 4. Highlight risks of false conclusions due to low statistical power.
 
-## Structure
-ab-test-analysis/
-├── data/
-│ ├── raw/ # Raw dataset files
-│ └── processed/ # Cleaned and filtered datasets
-├── notebooks/
-│ ├── 01_data_cleaning.ipynb
-│ ├── 02_testing.ipynb # Main analysis: test execution and findings
-├── src/
-│ ├── paths.py # Project-level path configuration
-│ └── stat_tests.py # analyze_ab_tests() and supporting logic
-├── scripts/
-│ └── download...py # Data download or preprocessing utilities
-└── README.md
-
 ## Purpose
 
 - Analyze A/B tests with two or more headline variants.
